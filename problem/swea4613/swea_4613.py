@@ -1,13 +1,13 @@
-# 러시아 깃발 만든기
+# 러시아 깃발 만들기
 # D4
 import sys
 sys.stdin = open('input_4613.txt')
 
 def find_casese():
-    if len(tmp) < 3:
+    if len(tmp) < 2:
         if sum(tmp) >= N: return
-    elif len(tmp) == 3:
-        if sum(tmp) == N:
+    elif len(tmp) == 2:
+        if sum(tmp) < N:
             cases.append(tmp.copy())
         return
     for i in range(1, max_row + 1):
@@ -15,7 +15,7 @@ def find_casese():
         find_casese()
         tmp.pop()
 
-def change_color(w, b, r):
+def change_color(w, b):
     cnt = 0
     for i in range(N):
         # 하얀 row 만들기
@@ -42,11 +42,11 @@ for tc in range(1, int(input()) + 1):
     cases = list()
 
     find_casese()
-
+    # print(cases)
     min_v = None
     for i in range(len(cases)):
-        w, b, r = cases[i]
-        val = change_color(w, b, r)
+        w, b = cases[i]
+        val = change_color(w, b)
         if i == 0: min_v = val
         else:
             if min_v > val:
