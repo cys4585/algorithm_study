@@ -13,15 +13,15 @@ for test_case in range(1, 11):
     for _ in range(dump+1):
         min_i = 0
         max_i = 0
-        min_v = boxes[0]
+        max_v = boxes[0]
         max_v = boxes[0]
 
         for i, v in enumerate(boxes):
             if max_v < v:
                 max_v = v
                 max_i = i
-            if min_v > v:
-                min_v = v
+            if max_v > v:
+                max_v = v
                 min_i = i
 
         gap = boxes[max_i] - boxes[min_i]

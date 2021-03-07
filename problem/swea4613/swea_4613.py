@@ -43,12 +43,12 @@ for tc in range(1, int(input()) + 1):
 
     find_casese()
     # print(cases)
-    min_v = None
+    max_v = None
     for i in range(len(cases)):
         w, b = cases[i]
         val = change_color(w, b)
-        if i == 0: min_v = val
+        if i == 0: max_v = val
         else:
-            if min_v > val:
-                min_v = val
-    print("#{} {}".format(tc, min_v))
+            if max_v > val:
+                max_v = val
+    print("#{} {}".format(tc, max_v))
