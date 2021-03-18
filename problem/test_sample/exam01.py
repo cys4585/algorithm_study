@@ -3,9 +3,10 @@ sys.stdin = open('exam01.txt')
 
 direction = [(-1, 0), (1, 0), (0, -1), (0, 1)]  # 상 하 좌 우
 
-def f(idx):
+def f(idx, connected_cnt):
     global result
-    if idx == len(need_connect):
+    global max_connected
+    if sum(check) == len(need_connect):
         # print('#'*50)
         # print(check, len(need_connect))
         # for a in in_arr:
@@ -16,12 +17,17 @@ def f(idx):
             for j in range(N):
                 if in_arr[i][j] == 2:
                     cnt += 1
-        if result > cnt:
+        if connected_cnt > max_connected:
+            max_connected = connected_cnt
             result = cnt
+        elif connected_cnt == max_connected:
+            if cnt > 0 and result > cnt:
+                result = cnt
+        # print(result, cnt)
         return
     y, x = need_connect[idx]
     check[idx] = 1
-    # f(idx + 1)
+    f(idx + 1, connected_cnt)
     check[idx] = 0
     # 4방향 탐색 /
     for dir in direction:
@@ -45,7 +51,7 @@ def f(idx):
                 else:
                     break
             check[idx] = 1
-            f(idx+1)
+            f(idx+1, connected_cnt+1)
             check[idx] = 0
             while True:
                 ny, nx = ny - dir[0], nx - dir[1]
@@ -67,9 +73,9 @@ for tc in range(1, int(input()) + 1):
             if r == 0 or r == N-1 or c == 0 or c == N-1: continue
             if in_arr[r][c] == 1: need_connect.append([r, c])
     check = [0] * len(need_connect)
+    max_connected = 0
     if tc == 6: pass
     result = 987654321
-    used = [False] * len(need_connect)
-    f(0)
+    f(0, 0)
 
     print('#{} {}'.format(tc, result))
