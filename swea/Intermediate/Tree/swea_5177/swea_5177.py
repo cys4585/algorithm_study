@@ -9,35 +9,36 @@
 import sys
 sys.stdin = open('input_5177.txt')
 
+
+def swap_node(child):
+    parent = child // 2
+    # parent node 값이 child node 값보다 크면
+    if tree[parent] > tree[child]:
+        # node 위치를 바꿔준다.
+        tree[parent], tree[child] = tree[child], tree[parent]
+        # 자리를 교체한 parent node와 그 위의 node(parent의 parent)와 비교
+        swap_node(parent)
+
+
 T = int(input())
 for tc in range(1, T + 1):
     N = int(input())
     in_arr = list(map(int, input().split()))
-    in_arr.insert(0, 0)
 
-    flag = True
-    while flag:
-        flag = False
-        for i in range(1, N + 1):
-            left, right = 2 * i, 2 * i + 1
-            if left <= N and right <= N:
-                print(i, in_arr[i], in_arr[left], in_arr[right])
-            if left > N: continue
-            if in_arr[left] < in_arr[i]:
-                in_arr[i], in_arr[left] = in_arr[left], in_arr[i]
-                flag = True
-            if right > N: continue
-            if in_arr[right] < in_arr[i]:
-                in_arr[i], in_arr[right] = in_arr[right], in_arr[i]
-                flag = True
-            print(i, in_arr[i], in_arr[left], in_arr[right])
-        print(in_arr)
+    tree = [0]
+    node = 0    # 정점 번호
+    for value in in_arr:
+        node += 1
+        tree.append(value)  # Tree 에 Node 추가
+        if len(tree) == 1: continue     # Root Node 만들 때는 작업 X
+        swap_node(node)     # current node, parent node 비교하여 자리 바꾸기
 
-    node = N
+    # 마지막 node의 조상 노드의 값 모두 더하기
+    sum_node = N
     sum_v = 0
-    while node >= 1:
-        node //= 2
-        sum_v += in_arr[node]
-    print(in_arr)
+    while sum_node > 1:
+        sum_node //= 2
+        sum_v += tree[sum_node]
+
     print('#{} {}'.format(tc, sum_v))
 
