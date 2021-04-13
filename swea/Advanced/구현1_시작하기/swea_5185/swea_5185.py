@@ -18,11 +18,8 @@ def hex_to_decimal(n):
 def decimal_to_binary(n):
     binary = ''
     for power in range(3, -1, -1):
-        if 2**power > n:
-            binary += '0'
-        else:
-            binary += '1'
-            n -= (2**power)
+        binary += str(n // (2**power))
+        n %= (2**power)
     return binary
 
 

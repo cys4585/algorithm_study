@@ -16,15 +16,11 @@ sys.stdin = open('input_5186.txt')
 
 for tc in range(1, int(input()) + 1):
     N = float(input())
-
     result = ''
     # 2의 1승부터 ~ 2의 13승까지 계산
     for power in range(-1, -14, -1):
-        if 2**power > N:
-            result += '0'
-        else:
-            result += '1'
-            N -= (2**power)
+        result += str(int(N // (2**power)))
+        N %= (2**power)
         # N == 0 이면 이진수로 변환이 완료된 것 -> 반복문 종료
         if N == 0:
             break
