@@ -149,22 +149,21 @@ for tc in range(1, T + 1):
     in_arr = list(set(in_arr))  # 중복 row 제거
 
     decimal_codes = list()
-    for row in in_arr:
-        row = row.strip('0')
-        if not row:
-            continue
-        tmp = '0' * 1
-        row = tmp + row + tmp
-        # 10진 코드 -> 2진 코드 변환
-        binary_code = ''
-        for i in range(len(row)):
-            binary_code += hex_to_bin[row[i]]
-        binary_code = binary_code.rstrip('0')
-        # 2진 코드 -> 10진수 코드 변환 (유효성 검사, 중복 검사 포함)
-        extract_decimal_code(binary_code)
-
+    for i in range(len(in_arr)):
+        arr = in_arr[i]
+        for j in range(M):
+            if arr[j] != '0' or arr[len(arr) - i - 1] != '0':
+                # 16진 코드 -> 2진 코드 변환
+                binary_code = ''
+                for k in range(M):
+                    binary_code += hex_to_bin[arr[k]]
+                binary_code = binary_code.rstrip('0')
+                # 2진 코드 -> 10진수 코드 변환 (유효성 검사, 중복 검사 포함)
+                extract_decimal_code(binary_code)
+                break
     result = 0
-    for decimal_code in decimal_codes:
-        result += sum(decimal_code)
+    code_length = len(decimal_codes)
+    for i in range(code_length):
+        result += sum(decimal_codes[i])
 
     print('#{} {}'.format(tc, result))
