@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02cea52a-57b5-43aa-8b3f-38fbbafcf9d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/1242_swea7463.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2798_블랙잭/2798.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/11399.py" beforeDir="false" afterPath="$PROJECT_DIR$/11399_swea7560.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12871.py" beforeDir="false" afterPath="$PROJECT_DIR$/12871_swea7555.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12904.py" beforeDir="false" afterPath="$PROJECT_DIR$/12904_swea7546.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/12967.py" beforeDir="false" afterPath="$PROJECT_DIR$/12967_swea7551.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/13706.py" beforeDir="false" afterPath="$PROJECT_DIR$/13706_swea7553.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/16953.py" beforeDir="false" afterPath="$PROJECT_DIR$/16953_swea7559.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,7 +30,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
   </component>
-  <component name="RunManager" selected="Python.12904_swea7546">
+  <component name="RunManager" selected="Python.2798">
     <configuration name="12871_swea7555" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -121,7 +115,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="16953_swea7559" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2798" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -129,11 +123,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2798_블랙잭" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\USER\Desktop\ssafy\personal\github_algorithm_study\baekjoon\16953_swea7559.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2798_블랙잭/2798.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -144,11 +138,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.2798" />
         <item itemvalue="Python.12904_swea7546" />
         <item itemvalue="Python.12967_swea7551" />
         <item itemvalue="Python.12871_swea7555" />
         <item itemvalue="Python.13706_swea7553" />
-        <item itemvalue="Python.16953_swea7559" />
       </list>
     </recent_temporary>
   </component>
