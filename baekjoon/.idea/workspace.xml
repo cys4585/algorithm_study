@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="02cea52a-57b5-43aa-8b3f-38fbbafcf9d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/15684_사다리조작/15684.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/15684_사다리조작/15684.py" beforeDir="false" afterPath="$PROJECT_DIR$/15684_사다리조작/15684.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../programmers/2020_KAKAO_BLIND_RECRUITMENT/자물쇠와 열쇠/자물쇠와열쇠.py" beforeDir="false" afterPath="$PROJECT_DIR$/../programmers/2020_KAKAO_BLIND_RECRUITMENT/자물쇠와 열쇠/자물쇠와열쇠.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />

@@ -24,24 +24,20 @@
 
 '''
 2 0 3
-
 2 1 3
 1 1
-
 5 5 6
 1 1
 3 2
 2 3
 5 1
 5 4
-
 6 5 6
 1 1
 3 2
 1 3
 2 5
 5 5
-
 5 8 6
 1 1
 2 2
@@ -51,7 +47,6 @@
 4 2
 5 3
 6 4
-
 5 12 6
 1 1
 1 3
@@ -65,7 +60,6 @@
 5 3
 6 2
 6 4
-
 5 6 6
 1 1
 3 1
@@ -81,14 +75,15 @@ def equal_i(start, y, x, direction):
     # finish
     if matrix[y][x] == 2:
         if start == x:
-            return True
-        return False
+            return True, x
+        return False, x
     # 사다리 갈아타기
+    # 오른쪽으로 가기
     if matrix[y][x] == 1 and direction == 'down':
-        if 0 <= x-1 and matrix[y][x-1] == 1:
-            return equal_i(start, y, x-1, 'side')
-        elif x+1 < N and matrix[y][x+1] == 1:
-            return equal_i(start, y, x+1, 'side')
+        return equal_i(start, y, x + 1, 'side')
+    # 왼쪽으로 가기
+    elif 0 <= x-1 and matrix[y][x-1] == 1 and direction == 'down':
+        return equal_i(start, y, x - 1, 'side')
     # 내려가기
     else:
         return equal_i(start, y+1, x, 'down')
@@ -96,49 +91,52 @@ def equal_i(start, y, x, direction):
 
 def my_func(start, cnt):
     global result
+    # 3개 이상 가로선 추가해야 하면 실패 -> -1
     if cnt > 3:
-        result = -1
         return
+    # 모든 세로선 조사 끝나면 종료
+    if start == N:
+        result = cnt
+        return
+
     # 출발지 == 도착지 이면 -> 다음 출발지 검사
-    if equal_i(start, 0, start, 'down'):
+    if equal_i(start, 0, start, 'down')[0]:
+        # if matrix[0][2] == 1 and matrix[2][3] == 1:
+            # for i in range(H + 1):
+            #     print(matrix[i])
+            # print(start, cnt, equal_i(start, 0, start, 'down'))
+            # print()
         my_func(start + 1, cnt)
-    # 출발지 != 도착지 이면 -> 사다리 추가하고 다시 검사
+    # 출발지 != 도착지 이면 -> 사다리 추가하고 처음부터 다시 검사
     else:
         for i in range(N):
             for j in range(H):
-                if matrix[j][i] or matrix[j][i+1]: continue
+                if matrix[j][i] or (0 <= i-1 and matrix[j][i-1]) or (i+1 < N and matrix[j][i+1]): continue
                 # if 0 <= i-1:
                 #     matrix[j][i], matrix[j][i - 1] = 1, 1
                 #     my_func(start, cnt + 1)
                 #     matrix[j][i], matrix[j][i - 1] = 0, 0
                 if i+1 < N:
-                    matrix[j][i], matrix[j][i + 1] = 1, 1
-                    my_func(start, cnt + 1)
-                    matrix[j][i], matrix[j][i + 1] = 0, 0
-                    matrix[j][i + 1] = 0
+                    matrix[j][i] = 1
+                    my_func(0, cnt + 1)
+                    matrix[j][i] = 0
+                if result != -1:
+                    return
 
-
+for tc in range(1, 8):
+    pass
 N, M, H = map(int, input().split())
 matrix = [[0] * N for _ in range(H)]
 matrix += [[2] * N]
 for _ in range(M):
     a, b = map(int, input().split())
     matrix[a-1][b-1] = 1
-    matrix[a-1][b] = 1
 
-for i in range(H+1):
-    print(matrix[i])
-
-result = None
+# for i in range(H+1):
+#     print(matrix[i])
+# print()
+result = -1
+# for i in range(N):
+#     print(equal_i(i, 0, i, 'down'))
 my_func(0, 0)
-
-
-
-
-
-
-
-
-
-
-
+print(result)
