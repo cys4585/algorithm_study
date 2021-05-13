@@ -89,27 +89,26 @@ def equal_i(start, y, x, direction):
         return equal_i(start, y+1, x, 'down')
 
 
-def my_func(start, cnt):
+def my_func(start, cnt, y, x):
     global result
-    # 3개 이상 가로선 추가해야 하면 실패 -> -1
+    # 3개 이상 가로선 추가해야 하면 실패
     if cnt > 3:
         return
     # 모든 세로선 조사 끝나면 종료
     if start == N:
-        result = cnt
+        if result > cnt:
+            result = cnt
         return
 
     # 출발지 == 도착지 이면 -> 다음 출발지 검사
     if equal_i(start, 0, start, 'down')[0]:
-        # if matrix[0][2] == 1 and matrix[2][3] == 1:
-            # for i in range(H + 1):
-            #     print(matrix[i])
-            # print(start, cnt, equal_i(start, 0, start, 'down'))
-            # print()
-        my_func(start + 1, cnt)
+        my_func(start + 1, cnt, y, x)
     # 출발지 != 도착지 이면 -> 사다리 추가하고 처음부터 다시 검사
     else:
-        for i in range(N):
+        ####
+        ####    for 반복문 수정해야함!!!!
+        ####    중복조사를 하고있기 때문에 시간 초과 발생
+        for i in range(x, N):
             for j in range(H):
                 if matrix[j][i] or (0 <= i-1 and matrix[j][i-1]) or (i+1 < N and matrix[j][i+1]): continue
                 # if 0 <= i-1:
@@ -118,10 +117,8 @@ def my_func(start, cnt):
                 #     matrix[j][i], matrix[j][i - 1] = 0, 0
                 if i+1 < N:
                     matrix[j][i] = 1
-                    my_func(0, cnt + 1)
+                    my_func(0, cnt + 1, j, i)
                     matrix[j][i] = 0
-                if result != -1:
-                    return
 
 for tc in range(1, 8):
     pass
@@ -135,8 +132,11 @@ for _ in range(M):
 # for i in range(H+1):
 #     print(matrix[i])
 # print()
-result = -1
+INF = 0xffffff
+result = INF
 # for i in range(N):
 #     print(equal_i(i, 0, i, 'down'))
-my_func(0, 0)
+my_func(0, 0, 0, 0)
+if result == INF:
+    result = -1
 print(result)
