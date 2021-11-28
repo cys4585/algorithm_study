@@ -2,15 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f36763-facc-4ed0-819d-8b6d618e4f5a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Intermediate/Stack2/4875.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Stack2/4875_sample_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Stack2/4880.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Stack2/4880_sample_input.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Stack2/4881.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Intermediate/Stack2/4881_sample_input.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Queue/5097.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Queue/5097_sample_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Queue/5099.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Queue/5099_sample_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Queue/5102.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Queue/5102_sample_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Queue/5105.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Intermediate/Queue/5105_sample_input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Intermediate/Stack2/4874.py" beforeDir="false" afterPath="$PROJECT_DIR$/Intermediate/Stack2/4874.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,40 +31,68 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="23" />
+          <entry key="py" value="27" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="23" />
+          <entry key="Python" value="27" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="15282" />
+          <entry key="py" value="18726" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="15282" />
+          <entry key="Python" value="18726" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Intermediate/Stack2/4881.py">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Intermediate/Queue/5097.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="16" column="16" lean-forward="true" selection-end-line="27" />
+            <state relative-caret-position="300">
+              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Intermediate/Queue/5105.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="518">
+              <caret line="27" column="35" lean-forward="true" selection-end-line="32" />
               <folding>
-                <marker date="1637934079259" expanded="true" signature="287:453" ph="..." />
+                <marker date="1638066961670" expanded="true" signature="60:61" ph="..." />
+                <marker date="1638066961670" expanded="true" signature="108:109" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Intermediate/Queue/5099.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Intermediate/Queue/5102.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -110,10 +138,14 @@
         <option value="$PROJECT_DIR$/Intermediate/Stack2/4875.py" />
         <option value="$PROJECT_DIR$/Intermediate/Stack2/4880.py" />
         <option value="$PROJECT_DIR$/Intermediate/Stack2/4881.py" />
+        <option value="$PROJECT_DIR$/Intermediate/Queue/5097.py" />
+        <option value="$PROJECT_DIR$/Intermediate/Queue/5105.py" />
+        <option value="$PROJECT_DIR$/Intermediate/Queue/5099.py" />
+        <option value="$PROJECT_DIR$/Intermediate/Queue/5102.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="1273" />
     <option name="width" value="1294" />
     <option name="height" value="1407" />
@@ -142,7 +174,7 @@
               <item name="restart_from20211117" type="b2602c69:ProjectViewProjectNode" />
               <item name="restart_from20211117" type="462c0819:PsiDirectoryNode" />
               <item name="Intermediate" type="462c0819:PsiDirectoryNode" />
-              <item name="Stack2" type="462c0819:PsiDirectoryNode" />
+              <item name="Queue" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -160,11 +192,11 @@
       <recent name="C:\Users\multicampus\Desktop\choiyoungsu\algorithm_study\swea\restart_from20211117\Intermediate\List1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\Desktop\choiyoungsu\algorithm_study\swea\restart_from20211117\Intermediate\Queue" />
       <recent name="C:\Users\multicampus\Desktop\choiyoungsu\algorithm_study\swea\restart_from20211117\Intermediate\Stack2" />
       <recent name="C:\Users\multicampus\Desktop\choiyoungsu\algorithm_study\swea\restart_from20211117\Intermediate\Stack1" />
       <recent name="C:\Users\multicampus\Desktop\choiyoungsu\algorithm_study\swea\restart_from20211117\Intermediate\String" />
       <recent name="C:\Users\multicampus\Desktop\choiyoungsu\algorithm_study\swea\restart_from20211117\Intermediate\List2" />
-      <recent name="C:\Users\multicampus\Desktop\choiyoungsu\algorithm_study\swea\restart_from20211117\Intermediate\List1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -179,70 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.4881">
-    <configuration name="4873" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="restart_from20211117" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intermediate/Stack1" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intermediate/Stack1/4873.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="4874" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="restart_from20211117" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intermediate/Stack2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intermediate/Stack2/4874.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="4875" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="restart_from20211117" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intermediate/Stack2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intermediate/Stack2/4875.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.5099">
     <configuration name="4880" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="restart_from20211117" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -285,20 +254,83 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="5097" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="restart_from20211117" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intermediate/Queue" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intermediate/Queue/5097.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5099" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="restart_from20211117" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intermediate/Queue" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intermediate/Queue/5099.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5105" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="restart_from20211117" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intermediate/Queue" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intermediate/Queue/5105.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.4873" />
-      <item itemvalue="Python.4874" />
-      <item itemvalue="Python.4875" />
       <item itemvalue="Python.4880" />
       <item itemvalue="Python.4881" />
+      <item itemvalue="Python.5097" />
+      <item itemvalue="Python.5105" />
+      <item itemvalue="Python.5099" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5099" />
+        <item itemvalue="Python.5105" />
+        <item itemvalue="Python.5097" />
         <item itemvalue="Python.4881" />
         <item itemvalue="Python.4880" />
-        <item itemvalue="Python.4875" />
-        <item itemvalue="Python.4874" />
-        <item itemvalue="Python.4873" />
       </list>
     </recent_temporary>
   </component>
@@ -316,18 +348,18 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1273" y="0" width="1294" height="1407" extended-state="0" />
+    <frame x="1273" y="0" width="1294" height="1407" extended-state="1" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49945945" visible="true" weight="0.24601911" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49945945" visible="true" weight="0.24601911" />
       <window_info id="Structure" order="1" sideWeight="0.50054055" side_tool="true" weight="0.081560284" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Debug" order="2" weight="0.3989071" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3985849" />
       <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="5" visible="true" weight="0.2948113" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.29402515" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.33097485" />
@@ -539,11 +571,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Intermediate/Stack2/4881.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="16" column="16" lean-forward="true" selection-end-line="27" />
+        <state relative-caret-position="630">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
           <folding>
             <marker date="1637934079259" expanded="true" signature="287:453" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Intermediate/Queue/5097.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Intermediate/Queue/5105.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="518">
+          <caret line="27" column="35" lean-forward="true" selection-end-line="32" />
+          <folding>
+            <marker date="1638066961670" expanded="true" signature="60:61" ph="..." />
+            <marker date="1638066961670" expanded="true" signature="108:109" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Intermediate/Queue/5099.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Intermediate/Queue/5102.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="4" column="4" lean-forward="true" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="4" />
         </state>
       </provider>
     </entry>
