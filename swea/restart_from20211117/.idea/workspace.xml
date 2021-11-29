@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="04f36763-facc-4ed0-819d-8b6d618e4f5a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Advanced/ExhaustiveSearch_BruteForceSearch/5188.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/ExhaustiveSearch_BruteForceSearch/5188_sample_input.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/ExhaustiveSearch_BruteForceSearch/5189.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Advanced/ExhaustiveSearch_BruteForceSearch/5189_sample_input.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -23,26 +27,26 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="27" />
+          <entry key="py" value="29" />
           <entry key="txt" value="12" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="12" />
-          <entry key="Python" value="27" />
+          <entry key="Python" value="29" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="19362" />
+          <entry key="py" value="20956" />
           <entry key="txt" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="9" />
-          <entry key="Python" value="19362" />
+          <entry key="Python" value="20956" />
         </counts>
       </usages-collector>
     </session>
@@ -50,41 +54,25 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Intermediate/Queue/5097.py">
+        <entry file="file://$PROJECT_DIR$/Advanced/ExhaustiveSearch_BruteForceSearch/5188.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="10" column="23" lean-forward="true" selection-start-line="10" selection-start-column="23" selection-end-line="10" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Intermediate/Queue/5105.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="518">
-              <caret line="27" column="35" lean-forward="true" selection-end-line="32" />
+            <state relative-caret-position="330">
+              <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
               <folding>
-                <marker date="1638066961670" expanded="true" signature="60:61" ph="..." />
-                <marker date="1638066961670" expanded="true" signature="108:109" ph="..." />
+                <marker date="1638187685750" expanded="true" signature="257:402" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Intermediate/Queue/5099.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="13" column="26" lean-forward="true" selection-start-line="13" selection-start-column="26" selection-end-line="13" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Intermediate/Queue/5102.py">
+        <entry file="file://$PROJECT_DIR$/Advanced/ExhaustiveSearch_BruteForceSearch/5189.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="20" column="32" selection-end-line="24" />
+            <state relative-caret-position="488">
+              <caret line="17" column="22" lean-forward="true" selection-end-line="27" selection-end-column="28" />
+              <folding>
+                <marker date="1638189419864" expanded="true" signature="246:465" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,6 +122,8 @@
         <option value="$PROJECT_DIR$/Intermediate/Queue/5105.py" />
         <option value="$PROJECT_DIR$/Intermediate/Queue/5099.py" />
         <option value="$PROJECT_DIR$/Intermediate/Queue/5102.py" />
+        <option value="$PROJECT_DIR$/Advanced/ExhaustiveSearch_BruteForceSearch/5188.py" />
+        <option value="$PROJECT_DIR$/Advanced/ExhaustiveSearch_BruteForceSearch/5189.py" />
       </list>
     </option>
   </component>
@@ -160,13 +150,13 @@
             <path>
               <item name="restart_from20211117" type="b2602c69:ProjectViewProjectNode" />
               <item name="restart_from20211117" type="462c0819:PsiDirectoryNode" />
-              <item name="Intermediate" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="restart_from20211117" type="b2602c69:ProjectViewProjectNode" />
               <item name="restart_from20211117" type="462c0819:PsiDirectoryNode" />
-              <item name="Intermediate" type="462c0819:PsiDirectoryNode" />
-              <item name="Queue" type="462c0819:PsiDirectoryNode" />
+              <item name="Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="ExhaustiveSearch_BruteForceSearch" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -184,11 +174,11 @@
       <recent name="C:\Users\multicampus\Desktop\choiyoungsu\algorithm_study\swea\restart_from20211117\Intermediate\List1" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\multicampus\Desktop\choiyoungsu\algorithm_study\swea\restart_from20211117\Advanced\ExhaustiveSearch_BruteForceSearch" />
       <recent name="C:\Users\multicampus\Desktop\choiyoungsu\algorithm_study\swea\restart_from20211117\Intermediate\Queue" />
       <recent name="C:\Users\multicampus\Desktop\choiyoungsu\algorithm_study\swea\restart_from20211117\Intermediate\Stack2" />
       <recent name="C:\Users\multicampus\Desktop\choiyoungsu\algorithm_study\swea\restart_from20211117\Intermediate\Stack1" />
       <recent name="C:\Users\multicampus\Desktop\choiyoungsu\algorithm_study\swea\restart_from20211117\Intermediate\String" />
-      <recent name="C:\Users\multicampus\Desktop\choiyoungsu\algorithm_study\swea\restart_from20211117\Intermediate\List2" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -203,49 +193,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.5102">
-    <configuration name="4881" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="restart_from20211117" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intermediate/Stack2" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intermediate/Stack2/4881.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5097" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="restart_from20211117" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Intermediate/Queue" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Intermediate/Queue/5097.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.5189">
     <configuration name="5099" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="restart_from20211117" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -309,20 +257,62 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="5188" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="restart_from20211117" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/ExhaustiveSearch_BruteForceSearch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/ExhaustiveSearch_BruteForceSearch/5188.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="5189" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="restart_from20211117" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Advanced/ExhaustiveSearch_BruteForceSearch" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Advanced/ExhaustiveSearch_BruteForceSearch/5189.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
-      <item itemvalue="Python.4881" />
-      <item itemvalue="Python.5097" />
       <item itemvalue="Python.5105" />
       <item itemvalue="Python.5099" />
       <item itemvalue="Python.5102" />
+      <item itemvalue="Python.5188" />
+      <item itemvalue="Python.5189" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.5189" />
+        <item itemvalue="Python.5188" />
         <item itemvalue="Python.5102" />
         <item itemvalue="Python.5099" />
         <item itemvalue="Python.5105" />
-        <item itemvalue="Python.5097" />
-        <item itemvalue="Python.4881" />
       </list>
     </recent_temporary>
   </component>
@@ -589,6 +579,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Intermediate/Queue/5102.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Intermediate/Queue/5099.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -596,10 +593,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Intermediate/Queue/5102.py">
+    <entry file="file://$PROJECT_DIR$/Advanced/ExhaustiveSearch_BruteForceSearch/5188.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="20" column="32" selection-end-line="24" />
+        <state relative-caret-position="330">
+          <caret line="11" column="4" lean-forward="true" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
+          <folding>
+            <marker date="1638187685750" expanded="true" signature="257:402" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Advanced/ExhaustiveSearch_BruteForceSearch/5189.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="488">
+          <caret line="17" column="22" lean-forward="true" selection-end-line="27" selection-end-column="28" />
+          <folding>
+            <marker date="1638189419864" expanded="true" signature="246:465" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
